@@ -1,8 +1,8 @@
-from src.data_preprocessing import load_data, clean_data
-from src.feature_engineering import create_features
-from src.forecasting import train_model, forecast_sales
-from src.inventory import inventory_optimization
-from src.visualization import plot_forecast
+from data_preprocessing import load_data, clean_data
+from feature_engineering import create_features
+from forecasting import train_model, forecast_sales
+from inventory import inventory_optimization
+from visualization import plot_forecast
 
 def main():
     df = load_data("data/raw/sales_data.csv")
